@@ -1,16 +1,41 @@
-# bmi_calc
 
-A new Flutter project.
+#  MediSync – Doctor Appointment Booking App
 
-## Getting Started
+**MediSync** is a mobile application that allows patients to seamlessly browse doctors, check availability, and book appointments in real-time. The app is designed to simplify healthcare access while providing secure user authentication and doctor-side authorization using **Firebase Authentication**.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+##  Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+-  **Doctor Browsing**: Search by specialty, rating, or location
+-  **Real-Time Availability**: See available appointment slots instantly
+-  **Booking System**: Schedule and manage appointments easily
+-  **Doctor Dashboard**: Manage availability, profile, and bookings
+-  **Firebase Authentication**:
+  - Secure sign-in/sign-up
+  - Role-based access (patients vs doctors)
+  - Password reset and account protection
+- **Mobile-first UI**: Clean, intuitive, and responsive interface
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+##  Tech Stack
+
+- **Flutter** (or your frontend tech)
+- **Firebase Auth**
+- **Firebase Firestore** (optional if used for data)
+- **Provider / Bloc** (if using state management)
+
+---
+
+##  Use Case
+
+This app is designed for clinics, solo practitioners, or telehealth services that want to offer their patients a modern, secure, and user-friendly booking experience.
+
+---
+
+## Future Improvements
+
+- Notifications & reminders
+- Video consultation integration
+- Admin panel for clinic managers
